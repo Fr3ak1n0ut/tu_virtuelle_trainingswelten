@@ -1,0 +1,51 @@
+const markers = [
+    {
+        name: "",
+        lat: 0,
+        long: 0
+    }, {
+        name: "",
+        lat: 0,
+        long: 0
+    }, {
+        name: "",
+        lat: 0,
+        long: 0
+    }, {
+        name: "",
+        lat: 0,
+        long: 0
+    }, {
+        name: "",
+        lat: 0,
+        long: 0
+    }, {
+        name: "",
+        lat: 0,
+        long: 0
+    }, {
+        name: "",
+        lat: 0,
+        long: 0
+    }, {
+        name: "",
+        lat: 0,
+        long: 0
+    }, {
+        name: "",
+        lat: 0,
+        long: 0
+    }, {
+        name: "",
+        lat: 0,
+        long: 0
+    }, {
+        name: "",
+        lat: 0,
+        long: 0
+    }, {
+        name: "",
+        lat: 0,
+        long: 0
+    }
+];

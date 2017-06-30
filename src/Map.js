@@ -31,7 +31,7 @@ export default Map = withGoogleMap(props => (
           center={props.center}
           radius={1000}
           marketingMultiplier={5}
-          maxLifeTime={10}/>
+          maxLifeTime={6}/>
       </div>
     )}
   </GoogleMap>

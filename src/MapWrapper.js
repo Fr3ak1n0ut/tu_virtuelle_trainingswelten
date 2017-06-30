@@ -76,16 +76,29 @@ class MapWrapper extends Component {
         return (
             <div
                 style={{
-                height: '1000px',
-                width: '1000px'
+                height: '650px',
+                width: '80%',
+                margin: 'auto',
+                marginTop: '20px',
+                boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
+                backgroundColor: '#fff'
             }}>
-                <TimePicker/>
+                <div style={{
+                    height: '100px'
+                }}>
+                    <p>React Map Component</p>
+                </div>
                 <Map
-                    containerElement={< div style = {{ height: '100%'}}/>}
+                    containerElement={< div style = {{ height: '490px'}}/>}
                     mapElement={< div style = {{ height: '100%'}}/>}
                     center={this.state.center}
                     content={this.state.content}
                     radius={this.state.radius}/>
+                <div style={{
+                    height: '50px'
+                }}>
+                    <p>React Map Component</p>
+                </div>
             </div>
         );
     }
